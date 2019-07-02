@@ -1,0 +1,32 @@
+.cards {
+	margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+	text-align: center;
+	border: 1px solid gray;
+	padding: 2rem;
+	background-color: white;
+	opacity: 0.85;
+	box-shadow: 2px 2px 8px 2px #d3d3d3;
+}
+
+.cards:hover {
+	opacity: 0.92;
+}
+
+.button {
+	border-radius: 10px 10px 10px 10px;
+	padding: 0.8rem;
+	background-color: #505050;
+	color: white;
+	border: none;
+}
+
+.button:hover {
+	background-color: #303030
+}
+
+.button:active {
+	border: none;
+	text-decoration: none;
+}
