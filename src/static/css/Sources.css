@@ -10,16 +10,27 @@
 	box-shadow: 2px 2px 8px 2px #d3d3d3;
 }
 
+.CardTitle {
+	font-size: 2.4vh;
+	font-weight: bold;
+}
+
+.CardText {
+	font-size: 2.1vh;
+}
+
 .cards:hover {
 	opacity: 0.92;
 }
 
 .button {
+	font-size: 2vh;
 	border-radius: 10px 10px 10px 10px;
-	padding: 0.8rem;
+	padding: 1.2vh;
 	background-color: #505050;
 	color: white;
 	border: none;
+	margin-bottom: 1vh; 
 }
 
 .button:hover {
@@ -29,4 +40,33 @@
 .button:active {
 	border: none;
 	text-decoration: none;
+}
+
+.formGroup {
+	color: #202020;
+	font-family: Arial;
+}
+
+.searchButton {
+    border-radius: 0px 10px 10px 0px;
+    padding: 1.3vh;
+    background-color: #303030;
+    color: white;
+    border: none;
+    opacity: 0.85;
+    font-size: 2.2vh;
+}
+
+.searchButton:hover {
+	opacity: 0.9;
+	background-color: #202020;
+}
+
+.Input {
+	text-align: center;
+	font-size: 2.3vh;
+	width: 30%;
+	padding: 0.8vh;
+	padding-left: 2vh;
+    border-radius: 10px 0 0 10px;	
 }

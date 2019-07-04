@@ -2,5 +2,8 @@
 	padding-top: 5rem;
 	font-family: Arial;
 	font-size: 20px;
-	background: url('./static/images/bg3.jpg') fixed;
+	background: url('./static/images/bg2.jpg') fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
 }
