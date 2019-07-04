@@ -12,9 +12,7 @@ export default class Header extends React.Component {
 		document.getElementById('row').style.display = "block";
 	}
 
-	shouldComponentUpdate() {
-		document.getElementById('row').style.display = "block";
-	}
+
 
 	render() {
 
@@ -29,7 +27,7 @@ export default class Header extends React.Component {
 				<br /><br />
 					{
 						news.map((content, i) => (
-						    <Card className="Card Committee" key={i}>
+						    <Card className="Card Committee animated zoomInUp" key={i}>
 						        <CardImg className="CardImg" top src={content.urlToImage} alt="No Image Available"/>
 						        <br /><br />
 						        <CardBody className="CardBody">
@@ -38,7 +36,7 @@ export default class Header extends React.Component {
 							   	    <CardText className="CardText">			
 								   	    <span>{content.content}</span>
 								   	    <hr />				   	    
-								   	    <a href={content.url} className="articleLink" target="_blank">Link to article</a>
+								   	    <a href={content.url} className="articleLink" target="_blank">Link to Article</a>
 							   	    </CardText>
 						   		</CardBody>
 					  		</Card>					

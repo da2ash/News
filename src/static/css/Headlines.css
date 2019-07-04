@@ -3,13 +3,11 @@
 	opacity: 0.85;
 	padding: 2vh;
 	width: 60%;
-	font-family: Arial;
 	border-radius: 20px 20px 20px 20px;
 	font-size: 3vh;
 }
 
 .Card {
-	font-family: Arial;
 	padding: 2vh;
 	margin: 2vh;
 	border-radius: 10px 10px 10px 10px; 
@@ -32,19 +30,16 @@
 	width: inherit;
 }
 
-.CardBody {
-	opacity: 0.9;
-}
-
 .CardTitle {
+	font-size: 2.6vh;
 	font-weight: bold;
 }
 
 .CardText {
-	font-size: 2vh;
+	font-size: 2.3vh;
 }
 
 .articleLink {
-	font-size: 2.2vh;
+	font-size: 2.3vh;
 	text-decoration: none;
 }

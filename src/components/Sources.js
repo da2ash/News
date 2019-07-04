@@ -52,7 +52,7 @@ class Sources extends React.Component {
 		const display = this.props.list.map((source, id) => {
 			return(
 			    <Col key={id}>
-			       	<Card className="cards">
+			       	<Card className="cards animated zoomIn">
 			          	<CardTitle className="CardTitle">
 				          	<strong>{source.name}</strong>
 			          	</CardTitle>

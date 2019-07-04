@@ -1,7 +1,6 @@
 .App {
 	padding-top: 5rem;
-	font-family: Arial;
-	font-size: 20px;
+	font-family: Quicksand;
 	background: url('./static/images/bg2.jpg') fixed;
     background-position: center;
     background-repeat: no-repeat;
